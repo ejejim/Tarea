@@ -28,8 +28,8 @@
                                     <action selector="QuieroUnaHamburguesa:" destination="BYZ-38-t0r" eventType="touchUpInside" id="42V-h7-lR8"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMb-zh-41M">
-                                <rect key="frame" x="140" y="177" width="32" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="País            " textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mMb-zh-41M">
+                                <rect key="frame" x="136" y="177" width="85" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -41,7 +41,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguesa" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zYa-kf-baA">
-                                <rect key="frame" x="99" y="292" width="108" height="21"/>
+                                <rect key="frame" x="95" y="292" width="112" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -49,11 +49,12 @@
                         </subviews>
                         <color key="backgroundColor" red="0.86957750822368418" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="mMb-zh-41M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="120" id="6B5-TZ-lEZ"/>
                             <constraint firstItem="AbK-Z3-kzg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="52" id="7qh-c5-xyV"/>
-                            <constraint firstItem="mMb-zh-41M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="124" id="9la-BP-Hkh"/>
-                            <constraint firstItem="zYa-kf-baA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="272" id="Lah-AY-yv3"/>
-                            <constraint firstItem="mMb-zh-41M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="157" id="TGs-Xy-ckh"/>
-                            <constraint firstItem="zYa-kf-baA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="83" id="kmP-LP-crH"/>
+                            <constraint firstItem="zYa-kf-baA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="79" id="EhR-pR-c7l"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="zYa-kf-baA" secondAttribute="trailing" constant="97" id="k4g-aD-PDG"/>
+                            <constraint firstItem="mMb-zh-41M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="157" id="lPc-EF-6UV"/>
+                            <constraint firstItem="zYa-kf-baA" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="272" id="s6b-cF-8bQ"/>
                             <constraint firstItem="AbK-Z3-kzg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="52" id="tHs-2I-BDC"/>
                         </constraints>
                     </view>
